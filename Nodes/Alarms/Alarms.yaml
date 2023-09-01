@@ -1,0 +1,330 @@
+Name: Alarms
+Type: AlarmsCategoryFolder
+Children:
+- File: Templates/Templates.yaml
+- Name: DigitalAlarm_Variable5
+  Type: DigitalAlarm_withArea
+  Children:
+  - Class: Reference
+    Target: ns=11;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Variable5"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Area
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone1"
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":20,"TextId":"Alarm on Variable5"}
+  - Name: Severity
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 1
+- Name: DigitalAlarm_Variable6
+  Type: DigitalAlarm_withArea
+  Children:
+  - Class: Reference
+    Target: ns=11;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Variable6"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Area
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone1"
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":20,"TextId":"Alarm on Variable6"}
+  - Name: Severity
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+- Name: DigitalAlarm_Variable7
+  Type: DigitalAlarm_withArea
+  Children:
+  - Class: Reference
+    Target: ns=11;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Variable7"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Area
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone1"
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":20,"TextId":"Alarm on Variable7"}
+  - Name: Severity
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3
+- Name: DigitalAlarm_Variable8
+  Type: DigitalAlarm_withArea
+  Children:
+  - Class: Reference
+    Target: ns=11;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Variable8"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Area
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone2"
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":20,"TextId":"Alarm on Variable8"}
+- Name: DigitalAlarm_Variable9
+  Type: DigitalAlarm_withArea
+  Children:
+  - Class: Reference
+    Target: ns=11;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Variable9"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Area
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone2"
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":20,"TextId":"Alarm on Variable9"}
+  - Name: Severity
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 2
+- Name: DigitalAlarm_Variable10
+  Type: DigitalAlarm_withArea
+  Children:
+  - Class: Reference
+    Target: ns=11;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=11;i=83
+    Direction: Forward
+  - Name: NormalStateValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+  - Name: InputValue
+    Type: BaseDataVariableType
+    DataType: Double
+    Value: 0.0
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/Variable10"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: LastEvent
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Name: AutoAcknowledge
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: AutoConfirm
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: Area
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Zone2"
+  - Name: Message
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"NamespaceIndex":20,"TextId":"Alarm on Variable10"}
+  - Name: Severity
+    Type: BaseDataVariableType
+    DataType: UInt16
+    Value: 3

@@ -1,0 +1,47 @@
+Name: Users
+Id: g=28fa632b2dd4c48ec853386dda4ef3cf
+Type: UsersCategoryFolder
+Children:
+- Name: Guest
+  Id: g=cac464681a0056f52cae01c6e99c813f
+  Type: UserType
+  Children:
+  - Name: Password
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [168,19,234,246,142,20,184,48,232,197,145,247,27,193,124,143,0,20,38,129,64,188,61,14,228,115,26,224,23,68,249,192],
+         "Salt": [219,147,30,6,39,113,253,186,2,10,71,51,97,164,99,229,3,189,6,23,235,49,134,134,226,28,108,126,223,192,52,47]
+        }
+       }
+    - Name: ChangeTimestamp
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2022-09-07T10:02:05.3810207"
+    - Name: History
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: []
+  - Name: LocaleId
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"

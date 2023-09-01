@@ -1,0 +1,43 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- Name: AlarmGrid_FilterArea
+  Id: g=1c6739456e1348df52e24a6714804e42
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "SELECT * FROM Model WHERE Area NOT LIKE '99999'"
+- Name: AlarmGrid_FilterPriority
+  Id: g=9a9bb85e3a6412abd17cb47613f02a38
+  Type: BaseDataVariableType
+  DataType: String
+  Value: ""
+- Name: Variable5
+  Id: g=f5b03eba41dc0ce9287c333f184adb4f
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable6
+  Id: g=8df657a5903d49bb237134af79a92f19
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable7
+  Id: g=a33e9a850ceb0710c830294c73d5352a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable8
+  Id: g=204fef960ae59076f40ff6c8d3b22f94
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable9
+  Id: g=aa4671bdadb0f129009e94255e41526a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: Variable10
+  Id: g=3091eec3732bd60782958cf86b2b4993
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0

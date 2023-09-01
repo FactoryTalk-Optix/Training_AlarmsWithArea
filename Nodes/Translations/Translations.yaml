@@ -1,0 +1,52 @@
+Name: Translations
+Type: TranslationsCategoryFolder
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [37,3],
+    "Body": [
+     "","en-US","it-IT",
+     "Acknowledge","Acknowledge","Riconosci",
+     "Acknowledge All","Acknowledge All","Riconosci Tutti",
+     "Confirm","Confirm","Conferma",
+     "Confirm All","Confirm All","Conferma Tutti",
+     "Name","Name","Nome",
+     "Message","Message","Messaggio",
+     "Active","Active","Attivo",
+     "Acked","Acked","Riconosciuto",
+     "Confirmed","Confirmed","Confermato",
+     "Severity","Severity","Severity",
+     "Alarm on Zone1","Alarm on Zone1","Allarme in Zona1",
+     "Alarm on Zone2","Alarm on Zone2","Allarme in Zona2",
+     "Timestamp","Timestamp","Data/Ora",
+     "Source Variable","Source","Sorgente",
+     "SourceName","Source","Variabile",
+     "Refresh","Refresh","Aggiorna",
+     "From","From","Da",
+     "To","To","A",
+     "Alarm on Variable10","Alarm on Variable10","Allarme su Variable10",
+     "Alarm on Variable5","Alarm on Variable5","Allarme su Variable5",
+     "Alarm on Variable6","Alarm on Variable6","Allarme su Variable6",
+     "Alarm on Variable7","Alarm on Variable7","Allarme su Variable7",
+     "Alarm on Variable8","Alarm on Variable8","Allarme su Variable8",
+     "Alarm on Variable9","Alarm on Variable9","Allarme su Variable9",
+     "Alarms on Zone1","Alarms on Zone1","Allarmi in Zona1",
+     "Alarms on Zone2","Alarms on Zone2","Allarmi in Zona2",
+     "Alarm Banner with Area","Alarm Banner with Area","Banner Allarmi con Area",
+     "Alarm History with Area","Alarm History with Area","Storico Allarmi con Area",
+     "Alarms with Area","Alarms with Area","Allarmi con Area",
+     "Area","Area","Area",
+     "Area Filter","Area Filter","Filtro Area",
+     "DigitalAlarm_withArea","DigitalAlarm_withArea","Allarme Digitale con Area",
+     "Severity Filter","Severity Filter","Filtro Priorità",
+     "1","1","1",
+     "2","2","2",
+     "3","3","3"
+    ]
+   }
